@@ -1,0 +1,67 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.row::before, .row::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+[class*="col-"]{
+  float:left;
+  min-height: 20px;
+  /*gutters*/
+  padding: 1%;
+  outline: 2px solid white;
+}
+
+.col-4{
+  width:33.33%;
+ height: 450px;
+}
+
+
+.col-8{
+  width:66.66%;
+  height: 450px;
+}
+
+
+.col-12{
+  width:100%;
+  height: 125px;
+}
+
+
+
+@media all and (max-width:450px){
+  [class*="col-"]{
+    width: 100%;
+  }
+
+  .violet{
+    height:125px;
+  }
+}
+
+
+.yellow{
+  background-color: rgba(247, 234, 0, 1);
+}
+
+.acqua{
+  background-color: rgba(52, 234, 169, 1);
+}
+
+.violet{
+  background-color: rgba(228, 134, 234, 1);
+}

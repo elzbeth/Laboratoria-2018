@@ -1,0 +1,132 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+
+body{
+  background-color: rgba(247, 142, 105, 1);
+  color:#fff;
+  font-family: sans-serif;
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.row::before,
+.row::after{
+  content: " ";
+  display: table;
+  clear:both;
+}
+
+[class*="col-"]{
+  float:left;
+  min-height: 70px;
+  /*gutters*/
+  margin: .5%;
+
+}
+
+/*.row{
+  margin-top: 15px;
+  overflow: hidden;
+}*/
+.col-1{
+  width: 7.339%;
+  background-color: rgba(255, 255, 0, 1);
+  height: 25px;
+}
+
+.col-2{
+  width: calc(15.669%);
+  background-color: rgba(175, 255, 0, 1);
+  height: 25px;
+}
+
+.col-3{
+  width: 24%;
+  background-color: rgba(30, 226, 166, 1);
+  height: 25px;
+}
+
+.col-4{
+  width: 32.31%;
+  background-color: rgba(1, 182, 173, 1);
+  height: 25px;
+}
+
+.col-5{
+  width: 40.58%;
+  background-color: teal;
+  height: 25px;
+}
+
+.col-6{
+  width: 49%;
+  background-color: rgba(156, 66, 209, 1);
+  height: 25px;
+}
+
+.col-7{
+  width:58.33%;
+  background-color: teal;
+  height: 25px;
+}
+
+.col-8{
+  width: 65.75%;
+  background-color: teal;
+  height: 25px;
+}
+
+.col-9{
+  width: 73.6%;
+  background-color: teal;
+  height: 25px;
+}
+
+.col-10{
+  width:82.39%;
+  background-color: teal;
+  height: 25px;
+}
+
+.col-11{
+  width:91.66%;
+  background-color: teal;
+  height: 25px;
+}
+
+.col-12{
+  width:99%;
+  background-color: rgba(209, 38, 169, 1);
+  height: 25px;
+}
+
+
+.t-left{
+  text-align: left;
+}
+
+.t-right{
+  text-align: right;
+}
+
+.t-center{
+  text-align: center;
+}
+
+#cover{
+  background-image: url(../assets/images/uno.jpg);
+  background-size: cover;
+  height: 600px;;
+}
