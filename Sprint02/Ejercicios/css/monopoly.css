@@ -1,0 +1,119 @@
+body{
+	width:100%;
+	min-height:100vh;
+	margin-left:10px;
+	padding:0;
+	font-family:'Roboto',sans-serif;
+	font-style:normal;
+}
+h1{
+	width:100%;
+	margin:0;
+	padding:25px;
+	background-color: #f7b817;
+}
+
+h2,h3{
+	margin:25px 40px;
+	padding: 10px 0px 10px 25px;
+}
+
+.floatVersion{
+	text-align: center;
+	border: 1px solid black;
+	width: 908px;
+	margin: 25px auto;
+
+}
+
+.infoCard{
+	border: 1px solid black;
+	text-align: center;
+	font-family: 'Time New Roman',serif;
+	font-weight: 200px;
+	font-size: 20px;
+	width:32.8%;
+	height: 600px;
+	display:block;
+	float:left;
+	padding-left:1px;
+	padding-right: 1px;
+	padding-top: 35px;
+}
+
+.title-center2,.footer2{
+	background-color:#ffc107;
+	width:907px;
+	height: 25px;
+	font-family:"Times New Roman";
+	font-weight: 700;
+	margin: 0 1px;
+	padding:8px 0px;
+	clear:left;
+}
+
+.title-center2{
+	font-size: 24px;
+	font-weight: 300;
+}
+
+
+.infoCard p{
+	font-size: 18px;
+	padding: 20px 25px;
+	margin-bottom: 0px;
+	text-align: justify;
+	font-style: normal;
+}
+
+#title-left {
+	text-align: center;
+	font-weight: 700;
+}
+
+#paddingdown {
+	padding-bottom: 0;
+}
+
+#marginup {
+	margin-top: 0;
+}
+
+#title-right {
+	text-align: center;
+	font-weight: 700;
+}
+
+#monopoly {
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.illustration{
+	margin: 10px auto;
+	width: 90%;
+}
+
+
+.btn2 {
+	background: #000;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin:40px;
+  text-decoration: none;
+ 	display: block;
+ 	position: relative;
+	text-align: center;
+}
+
+.btn2:hover {
+  background: #ffa507;
+  color:#000;
+  font-weight: 700;
+  text-decoration: none;
+}

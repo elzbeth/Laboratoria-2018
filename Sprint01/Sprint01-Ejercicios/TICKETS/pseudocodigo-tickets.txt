@@ -1,0 +1,33 @@
+-capacidad inicial 10 asientos.
+-menu principal:
+		1=RESERVACION:
+			El usuario elige un asiento libre.
+			Solicitar información perosnal:
+				Nombre
+				Apellido Paterno
+				Apellido Materno
+				Documento de Identificación
+				Regresa a menu principal
+		2=LIBERAR:
+			El usuario elige el asiento a liberar.
+			Confirmación(SI/NO) mostrando la información asociada al asiento:
+				Nombre
+				Apellido Paterno
+				Apellido Materno
+				Documento de Identificación
+				Regresa a menu principal
+
+		3=BUSCAR POR DOCUMENTO:
+			El usuario ingresa el documento de identificación.
+			Muestra los datos asociados al pasajero incluyendo el número de asiento.
+			Regresa al menu principal
+
+		4=LISTAR A TODOS LOS PASAJEROS:
+			Muestra la lista de pasajeros e información relacionada(nombre, apellido paterno, apellido materno, documento de identificación, asientos)
+			Regresa al menu principal.
+
+		-1= SALIR DEL SISTEMA:
+		   La aplicación sale del sistema.
+
+var str = "1[ ] 3[ ] 5[ ] 7[ ] 9[ ]" +
+          "2[ ] 4[ ] 6[ ] 8[ ] 10[ ]";		   

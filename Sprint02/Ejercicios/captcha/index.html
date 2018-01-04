@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Captcha</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="generateCaptcha();">
+  <h2>Recaptcha</h2>
+  <section class="designContainer">
+  <div>
+    <input type="text" id="mainCaptcha"/>
+  </div>
+  <div>
+    <input type="text" id="txtInput"/>
+    <a onclick="CheckValidCaptcha()" href="#"><i class="fa fa-check fa-2x" aria-hidden="true"></i></a>
+    <a onclick="generateCaptcha()" href="#"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></a>
+  </section>
+
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

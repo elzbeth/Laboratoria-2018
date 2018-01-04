@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device, initial=scale=1.0">
+	<title>SPRINT 02 - EJERCICIOS PRÁCTICOS - NUESTRAS CODERS 2</title>
+	<link href="../css/coders2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>NUESTRAS CODERS 2</h1>
+		<section id="container">
+        <h2>Laboratoria <strong> Código que transforma</strong> </h2>
+        <h3>Conoce a las coders</h3>
+        <select id="filtro" onchange ="seleccionarOpcion(event)">
+            <option >Selecciona una sede </option>
+            <option value = "cdmx5" data-sede="CDMX" data-generacion ="quinta">Ciudad de México.Quinta generación</option>
+            <option value = "cdmx4" data-sede="CDMX" data-generacion ="cuarta">Ciudad de México. Cuarta generación</option>
+            <option value = "cdmx3" data-sede="CDMX" data-generacion ="tercera">Ciudad de México. Tercera generación</option>
+            <option value = "lim1" data-sede="Lima" data-generacion ="primera">Lima, Primera Generacion</option>
+            <option value = "lim2" data-sede="Lima" data-generacion ="segunda">Lima, Segunda Generación</option>
+        </select>
+        <section id="contenedor-coders">
+            <div class="coder plantilla">
+                <img src="../assets/images/coders01.jpg" class="foto-coder">
+                <p class="nombre">Patricia Hernández</p>
+                <p class="turno">AM</p>
+                <div>
+                <span class="correo">patricia.dione@gmail.com</span>
+                <span class="generacion"></span>
+                </div>
+            </div>
+        </section>
+    </section>
+		<div>
+			<a href="../index.html" target="_blank" class='btn2'>Volver a Ejercicios Prácticos</a>
+		</div>
+	<script type="text/javascript" src="../js/coders2.js"></script>
+</body>
+</html>

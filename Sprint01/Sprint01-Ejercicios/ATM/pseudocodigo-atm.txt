@@ -1,0 +1,17 @@
+-Establecer las cantidades iniciales por denominación
+-Establecer el monto por denominación.
+-Obtener el monto total del disponible
+-Preguntar el importe a retirar
+-Comprobar si el importe es menor al total disponibe:
+	-Si es mayor, informar que no esta disponible esa cantida y confirmar si desea otro intento y regresar al paso anterior.
+	-Si es menor, continuar con el siguiente.
+-Verificar si el importe a retirar es divisible entre el monto de la denominación mayor:
+	-Si el residuo de la división es igual a cero: 	-		-Entregar el importe al usuario.
+	-Si el residuo es diferente a cero:
+-Verificar si el importe a retirar es divisible entre el monto de la denominación siguiente:
+	-Si el residuo de la división es igual a cero: 	-		-Entregar el importe al usuario.
+	-Si el residuo es diferente a cero...
+...continuar hasta que el residuo sea igual a cero.
+
+-Entregar el importe al usuario.
+

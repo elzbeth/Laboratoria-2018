@@ -1,0 +1,12 @@
+.contenedor-img {
+	display: inline-block;
+	width: 30%;
+}
+
+.gray {
+	filter: grayscale(100%);
+}
+
+.sepia {
+	filter: sepia(100%);
+}

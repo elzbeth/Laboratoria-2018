@@ -1,0 +1,103 @@
+body{
+	width:100%;
+	min-height:100vh;
+	margin-left:10px;
+	padding:0;
+	font-family:'Roboto',sans-serif;
+	font-style:normal;
+	font-weight:300;
+}
+h1{
+	width:100%;
+	margin:0;
+	padding:25px;
+	background-color: #f7b817;
+}
+
+h2,h3{
+	margin:25px 40px;
+	padding: 10px 0px 10px 25px;
+}
+
+p{
+	font-family: 'Times-New-Roman';
+	width:900px;
+	font-size: 18px;
+	margin: 20px auto;
+	padding-top: 20px;
+}
+
+/*-----EJERCICIO C----*/
+.exampleC{
+	height:800px;
+	margin:50px auto 20px auto;
+	display:block;
+	position: relative;
+}
+.boxC{
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+#boxC1{
+	background: #ee3e64;
+}
+#boxC2{
+	background: #44accf; left: 200px;
+}
+#boxC3{
+	background: #b7d84b;
+}
+
+
+/*----BOTONES---*/
+
+.btn {
+  background: #f7b817;
+  background-image: -webkit-linear-gradient(top, #f7b817, #f7b750);
+  background-image: -moz-linear-gradient(top, #f7b817, #f7b750);
+  background-image: -ms-linear-gradient(top, #f7b817, #f7b750);
+  background-image: -o-linear-gradient(top, #f7b817, #f7b750);
+  background-image: linear-gradient(to bottom, #f7b817, #f7b750);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 80%;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: #ffa507;
+  color:#000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+.btn2 {
+	background: #000;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin:40px;
+  text-decoration: none;
+ 	display: block;
+ 	position: relative;
+	text-align: center;
+}
+
+.btn2:hover {
+  background: #ffa507;
+  color:#000;
+  font-weight: 700;
+  text-decoration: none;
+}

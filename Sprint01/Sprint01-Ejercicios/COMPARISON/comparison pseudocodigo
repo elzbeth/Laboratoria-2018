@@ -1,0 +1,9 @@
+Crear función que tome como parámetros dos arreglos.
+Comprobar que ambos parámetros son idénticos en loguitud.
+	Si es así regresar verdadero.
+	De lo contrario regresar falso.
+Comprobar uno a uno cada uno de los elementos del arreglo.
+	Si no son iguales regresa falso.
+	Si son iguales sigue comprobando el siguiente elemento.
+Regresa true
+End

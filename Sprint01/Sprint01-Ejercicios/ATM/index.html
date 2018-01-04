@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>SEMANA 01- ATM</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1>ATM</h1>
+	<p>Crea un programa que un cajero automático pueda utilizar para determinar el número mínimo de billetes a entregar dado un monto solicitado. El cajero empieza con: </p>
+	<p>100 billetes de 100</p>
+  <p>50 billetes de 50</p>
+  <p>200 billetes de 20</p>
+  <p>300 billetes de 10</p>
+  <p>500 billetes de 5</p>
+  <p>800 billetes de 1</p>
+	<br>
+  <p>Veamos un caso de uso:</p>
+	<p>Si el usuario solicita 250 dólares, la salida debe verse así:</p>
+	<p>Monto solicitado 250 dólares.</p>
+	<p>Se entregan 3 billetes:</p>
+	<p>100: 2</p>
+	<p>50: 1</p>
+	<p>En el cajero quedan: </p>
+	<p>100: 98
+  <p>50: 49</p>
+  <p>20: 200</p>
+  <p>10: 300</p>
+  <p>5: 500</p>
+  <p>1: 800</p>
+	<br>
+	<p>El cajero recuerda cuánto dinero le queda para las siguientes transacciones.Por ejemplo, sí el usuario desea retirar 150 dólares adicionales, la salida debe verse así:</p>
+	<p>Monto solicitado 150 dólares, se entregan 2 billetes:</p>
+	<p>100: 1</p>
+	<p>50: 1</p>
+  <p>En el cajero quedan: </p>
+	<p>100: 97</p>
+	<p>50: 48</p>
+	<p>20: 200</p>
+	<p>10: 300</p>
+	<p>5: 500</p>
+	<p>1: 800</p>
+
+<section id="operation">
+	<div id="initial"></div>
+	<div id="delivered"></div>
+	<div id="retired"></div>
+	<div id="total"></div>
+	<div id="farewell"></div>
+</section>
+
+
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

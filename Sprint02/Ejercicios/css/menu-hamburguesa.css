@@ -1,0 +1,124 @@
+body{
+	width:100%;
+	min-height:100vh;
+	margin:0;
+	padding:0;
+	font-family:'Roboto',sans-serif;
+	font-style:normal;
+	font-weight:300;
+}
+
+h1{
+	width:100%;
+	margin:0;
+	padding:25px;
+	background-color: #f7b817;
+}
+
+
+button{
+	width: 80px;
+	height: 80px;
+	border: none;
+	border-radius: 50%;
+	background-color: #f6b518;
+	padding: 10px auto;
+	outline: none;
+	margin-bottom: 5px;
+}
+
+button:hover{
+	outline: none;
+}
+
+
+
+.bar{
+  width: 50px;
+  height: 4px;
+  background-color: #fff;
+  margin: 8px auto;
+	border-radius: 2px;
+}
+
+
+
+
+nav{
+	width:  60%;
+	text-align: center;
+}
+
+nav ul{
+	list-style: none;
+  margin: 0;
+	padding:0;
+
+}
+
+#options-menu{
+	width: 85%;
+	text-align: left;
+}
+
+li{
+	width: 100%;
+	height: 20px;
+	padding:15px;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+
+#nav-menu{
+	width: 200px;
+	padding: 40px auto;
+	margin: 20px auto;
+	background-color: #f6b518;
+}
+
+li:hover{
+	background-color: #000;
+	color:#fff;
+}
+
+a{
+	text-decoration: none;
+	color:#2b2b2b;
+}
+
+a:hover{
+	color:#fff;
+}
+
+
+.enabled-menu{
+	display: block;
+}
+
+.disabled-menu{
+	display: none;
+}
+
+
+.btn2 {
+	background: #000;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin:40px;
+  text-decoration: none;
+ 	display: block;
+ 	position: relative;
+	text-align: center;
+}
+
+.btn2:hover {
+  background: #ffa507;
+  color:#000;
+  font-weight: 700;
+  text-decoration: none;
+}
